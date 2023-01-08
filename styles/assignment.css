@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ .header {
+    background-image: url(../images/banner/banner2.png);
+    background-repeat:no-repeat ;
+    width: 1600px;
+    height: 809px;
+    left: 1600px;
+    top: 0px;
+    background-position: right, left;
+    
+    
+}
+.banner{
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    text-align: right;
+    
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 76px;
+}
+.banner-description{
+    color: #444343;
+    margin-top: 24px;
+}
+.btn-primary{
+   background-color: rgb(70, 70, 255);
+   color: white;
+   width: 160px;
+   height: 64px;
+   font-size: 20px;
+margin-top: 19px;
+   top: 580px;
+   border-radius: 5px;
+}
+.about-img{
+    position: absolute;
+    width: 569px;
+    height: 724px;
+    left: 277px;
+    top: 939px;
+    
+    
+}
+.about-all{ 
+    position: absolute;
+    width: 408px;
+    height: 404px;
+    left: 924px;
+    top: 1188px; 
+    text-align: left;
+}
+.about-title{
+    font-weight: 40px;
+    font-size: 40px;
+
+}
+.learning-title{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 900px;
+}
+  
+
+.learning-container{
+display:flex;
+flex-direction: row;
+text-align: center;
+margin-top: 100px;
+margin-left: 20%;
+  gap: 100px;
+    
+}
+.learn-title{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+.gradient{
+background-image:url(../images/watch.png);
+position: absolute;
+width: 1140px;
+height: 300px;
+left: 230px;
+top: 2217px;
+ background: linear-gradient(90beg, #F15B22 -1.93%, rgba(241, 91, 34, 0)98.07%);
+ opacity: .6;
+border-radius: 8px;
+
+}
+
+
+.grd-title{
+    text-align: left;
+    width: 460px;
+    left: 294px;
+    top: 2275px;
+    font-weight: 700;
+    font-size: 35px;
+   margin: 59px 64px;
+   gap: 5px;
+color: #fffff;
+}
+.a{}
+.g-title{
+    color: black;
+    
+}
+.btn-call{
+    background-color: #F15B22;
+    color: black;
+    font-weight: 30px;
+    font-size: 25px;
+    border-radius: 5px;
+
+}
+footer{
+    background-color: #0e0e0e;
+    color: #ffffff;
+    position: absolute;
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+    top: 2646px;
+    text-align: left;
+}
+.footer-title{
+    margin-left: 20%;
+    margin-top: 100px;
+}
+.footer-subscribe{
+    margin-left: 70%;
+}
+a{color: #ffffff;}
+.email{font-size: 20px;
+    border-radius: 5px;
+
+    
+
+}
+      .btn-sub{
+        background-color: chocolate;
+        color:#ffffff;
+        font-weight: 300;
+        font-size: 20px;
+        border-radius: 5px;
+      }
